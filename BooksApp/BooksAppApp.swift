@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct BooksAppApp: App {
+    
+    let booksViewModel = BookViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BookList(viewModel: booksViewModel)
         }
     }
 }

@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  BooksApp
 //
-//  Created by user207077 on 10/25/21.
+//  Created by Simbarashe Dombodzvuku on 10/25/21.
 //
 
 import SwiftUI
@@ -13,6 +13,7 @@ struct ContentView: View {
             .padding()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

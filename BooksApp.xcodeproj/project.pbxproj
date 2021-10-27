@@ -11,6 +11,12 @@
 		732050C127263D4200EFBD38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732050C027263D4200EFBD38 /* ContentView.swift */; };
 		732050C327263D4300EFBD38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732050C227263D4300EFBD38 /* Assets.xcassets */; };
 		732050C627263D4300EFBD38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732050C527263D4300EFBD38 /* Preview Assets.xcassets */; };
+		732050CD27263FB300EFBD38 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732050CC27263FB300EFBD38 /* Book.swift */; };
+		732050CF2726400400EFBD38 /* BookList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732050CE2726400400EFBD38 /* BookList.swift */; };
+		732050D1272642E600EFBD38 /* BookRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732050D0272642E600EFBD38 /* BookRow.swift */; };
+		733905A32729F39E0074E878 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 733905A52729F39E0074E878 /* Localizable.strings */; };
+		73C39FDB27264A9300A93F94 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C39FDA27264A9300A93F94 /* BookViewModel.swift */; };
+		73C39FDD2726526C00A93F94 /* BookEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C39FDC2726526C00A93F94 /* BookEdit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		732050C027263D4200EFBD38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		732050C227263D4300EFBD38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		732050C527263D4300EFBD38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		732050CC27263FB300EFBD38 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		732050CE2726400400EFBD38 /* BookList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookList.swift; sourceTree = "<group>"; };
+		732050D0272642E600EFBD38 /* BookRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRow.swift; sourceTree = "<group>"; };
+		733905A42729F39E0074E878 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		733905A62729F5440074E878 /* sn-ZW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "sn-ZW"; path = "sn-ZW.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		73C39FDA27264A9300A93F94 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		73C39FDC2726526C00A93F94 /* BookEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEdit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +48,7 @@
 		732050B227263D4200EFBD38 = {
 			isa = PBXGroup;
 			children = (
+				733905A52729F39E0074E878 /* Localizable.strings */,
 				732050BD27263D4200EFBD38 /* BooksApp */,
 				732050BC27263D4200EFBD38 /* Products */,
 			);
@@ -55,6 +69,11 @@
 				732050C027263D4200EFBD38 /* ContentView.swift */,
 				732050C227263D4300EFBD38 /* Assets.xcassets */,
 				732050C427263D4300EFBD38 /* Preview Content */,
+				732050CC27263FB300EFBD38 /* Book.swift */,
+				732050CE2726400400EFBD38 /* BookList.swift */,
+				732050D0272642E600EFBD38 /* BookRow.swift */,
+				73C39FDA27264A9300A93F94 /* BookViewModel.swift */,
+				73C39FDC2726526C00A93F94 /* BookEdit.swift */,
 			);
 			path = BooksApp;
 			sourceTree = "<group>";
@@ -109,6 +128,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"sn-ZW",
 			);
 			mainGroup = 732050B227263D4200EFBD38;
 			productRefGroup = 732050BC27263D4200EFBD38 /* Products */;
@@ -126,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				732050C627263D4300EFBD38 /* Preview Assets.xcassets in Resources */,
+				733905A32729F39E0074E878 /* Localizable.strings in Resources */,
 				732050C327263D4300EFBD38 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,17 +159,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				732050C127263D4200EFBD38 /* ContentView.swift in Sources */,
+				732050D1272642E600EFBD38 /* BookRow.swift in Sources */,
 				732050BF27263D4200EFBD38 /* BooksAppApp.swift in Sources */,
+				732050CD27263FB300EFBD38 /* Book.swift in Sources */,
+				73C39FDD2726526C00A93F94 /* BookEdit.swift in Sources */,
+				732050CF2726400400EFBD38 /* BookList.swift in Sources */,
+				73C39FDB27264A9300A93F94 /* BookViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		733905A52729F39E0074E878 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				733905A42729F39E0074E878 /* en */,
+				733905A62729F5440074E878 /* sn-ZW */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		732050C727263D4300EFBD38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -210,6 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
