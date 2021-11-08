@@ -2,7 +2,7 @@
 //  BookRow.swift
 //  BooksApp
 //
-//  Created by Simbarashe DOmbodzvuku on 10/25/21.
+//  Created by Simbarashe Dombodzvuku on 10/25/21.
 //
 
 import SwiftUI
